@@ -1,3 +1,9 @@
+/*
+*. / src / globalStyles.js
+* Attempted import error: 'injectGlobal' is not exported from 'styled-components'.
+* [solution] : downgrade "styled-components": "^3.4.10",
+**/
+
 import { injectGlobal } from 'styled-components';
 
 injectGlobal `
